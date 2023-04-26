@@ -1,0 +1,182 @@
+@font-face { 
+ font-family: n_normal; 
+ src: url(../font/n_normal.ttf) format('truetype'); 
+ } 
+@font-face { 
+ font-family: n_oblique; 
+ src: url(../font/n_oblique.ttf) format('truetype'); 
+ } 
+@font-face { 
+ font-family: a_normal; 
+ src: url(../font/a_chafexp.ttf) format('truetype'); 
+ } 
+@font-face { 
+ font-family: a_oblique; 
+ src: url(../font/a_chafita.ttf) format('truetype'); 
+ } 
+
+
+ #navbarMenuHeroC { 
+ font-family:a_oblique!important; 
+ } 
+.va { 
+ display: flex; 
+ align-items: center; 
+ } 
+
+html { 
+ color: white; 
+ background-color:#373c43; 
+ } 
+
+a { 
+ color: #3b7adf; 
+ } 
+
+a:hover { 
+ text-decoration: underline; 
+ color: #3b7adf; 
+ } 
+
+hr { 
+ background: #24272c; 
+ } 
+
+.hero { 
+ background:transparent; 
+ } 
+
+.title,
+.subtitle { 
+ color: white; 
+ } 
+.navbar-item img { 
+ max-height: 8rem; 
+ } 
+.navbar .navbar-item { 
+ color: #e4e2ff; 
+ } 
+
+.navbar .navbar-item.is-active { 
+ color: #e4e2ff; 
+ font-weight: 700; 
+ } 
+
+.navbar .navbar-item:hover { 
+ background: transparent; 
+ color: white; 
+ } 
+
+.navbar .navbar-item a { 
+ margin-left: 1rem; 
+ color: #e4e2ff; 
+ } 
+
+.blog-posts { 
+ min-height: 100vh; 
+ /* background: transparent; */
+ padding-top: 4rem; 
+ padding-bottom: 10rem; 
+ } 
+
+.blog-posts article { 
+ padding: 1.5rem; 
+ background: #000000aa; 
+ border-radius:6px; 
+ } 
+
+.blog-posts .post img { 
+ border-radius: 6px; 
+ } 
+
+.blog-posts .post .post-category { 
+ color: #3b7adf; 
+ } 
+
+.blog-posts .post .post-title { 
+ font-size: 2.2rem; 
+ } 
+
+.blog-posts .post .post-excerpt { 
+ line-height: 1.5rem; 
+ letter-spacing: .03rem; 
+ font-size: 1.2rem; 
+ font-family: 'IBM Plex Serif', serif; 
+ color: #92a3ab; 
+ } 
+
+.blog-posts .post .featured .featured-image img { 
+ height: 380px; 
+ } 
+
+
+ .ek-bg { 
+ background: url(../img/bg-rami.png); 
+ background-repeat: no-repeat; 
+ background-position: center; 
+ height: 4000px; 
+ width: 100vw; 
+ position: absolute; 
+ /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
+ /* z-index: 2; */
+ /* margin-top:10vh; */
+ } 
+ 
+ .ek-rami-sx { 
+ background: url(../img/rami-sx.png); 
+ background-repeat: no-repeat; 
+ background-position: center; 
+ margin-left: 10vw; 
+ width:100%; 
+ height:100vh; 
+ /* width: 100%; 
+ height: 4000px; 
+ /* position: absolute; * /
+ top: 0; 
+ left: 0; */
+ background-repeat: no-repeat; 
+ /* z-index: -2; */
+ } 
+ .ek-rami-dx { 
+ background: url(../img/rami-dx.png); 
+ margin-right: 10vw; 
+ width: 100%; 
+ height: 4000px; 
+ /* position: absolute; */
+ top: 0; 
+ right: 0; 
+ background-repeat: no-repeat; 
+ /* z-index: -2; */
+ } 
+ .ek-nebbia { 
+ background: url(../img/bg-nebbia.png); 
+ background-repeat: no-repeat; 
+ background-position: center; 
+ width: 100vw; 
+ height:4000px; 
+ position: absolute; 
+ /* z-index usage is up to you.. although there is no need of using it because the default stack context will work. */
+ /* z-index: 2; */
+ /* margin-top:10vh; */
+ } 
+ .updown { 
+ transform: rotate(-90deg); 
+ } 
+ .ek-content { 
+ position: absolute; 
+ left: 50%; 
+ transform: translateX(-50%); 
+ width: 80%; 
+ 
+ } 
+
+/* Card start*/
+.card { 
+ overflow: hidden; 
+ background: black; 
+ color: var(--bg); 
+ } 
+
+.card.large { 
+ border-radius: 5px; 
+ } 
